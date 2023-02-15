@@ -1,0 +1,35 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(63, 26, 51);
+    margin: 0px 0px;
+    overflow: auto;
+}
+
+.left{
+    width: 40%; height: 100%;
+     border-bottom-left-radius: 20px;
+     border-top-left-radius: 20px; 
+     background-color: brown;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.right{
+    width: 60%; height: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+}
